@@ -34,7 +34,24 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
-/* write all the steps invloved */
+Open Quartus Prime and create a new Verilog project.
+
+Write the Verilog code for the JK flip-flop.
+
+Compile the project to check for errors.
+
+Generate the RTL schematic to verify the correct logic design.
+
+Create a testbench to simulate the functionality of the JK flip-flop.
+
+Apply various input combinations for J and K.
+
+Observe the next state Q(t+1) based on the characteristic table.
+
+Generate the timing diagram to verify the behavior of the flip-flop with respect to the clock signal.
+
+Validate the simulation results against the functional table.
+
 
 **PROGRAM**
 
@@ -49,3 +66,6 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 ![wave](https://github.com/user-attachments/assets/d27b484a-fce4-4053-8517-8b51968312eb)
 
 **RESULTS**
+
+
+The JK flip-flop was successfully implemented in Verilog, and its functionality was validated using the truth table and timing diagrams. The output correctly responds to all input combinations, including toggling when J = 1 and K = 1.
